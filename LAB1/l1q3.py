@@ -1,0 +1,13 @@
+l = [1,2,3,4,5]
+print("Currently the List is :", l)
+l.insert(5,6)
+print("After Inserting 6 at 5 index :",l)
+l.remove(6)
+print("After Removing 6 :",l)
+l.append(6)
+print("Appeding 6 :", l)
+print("Printing the length :",len(l))
+l.pop()
+print("After popping 6 :",l)
+l.clear()
+print("After clearing :",l)
