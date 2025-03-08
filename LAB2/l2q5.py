@@ -5,9 +5,9 @@
 t = []
 n = int(input("Enter Number of Elements you want in List :"))
 for i in range(n):
+    tu = ()
+    print("In tuple number", i)
     for j in range(3):
-       tu = ()
-       print("In tuple number", j)
        e = input("Enter Element :")
        tu = tu + (e,)
     
@@ -15,3 +15,10 @@ for i in range(n):
 print("List created : ", t)
 
 e = int(input("Enter the number you want to replace of last element :"))
+
+for i in t:
+    list(i)
+    i[-1] = e
+    tuple(i)
+
+print("List created : ", t)
